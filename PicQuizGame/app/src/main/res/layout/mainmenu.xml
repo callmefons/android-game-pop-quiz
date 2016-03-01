@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorHighlight"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"></include>
+
+        <LinearLayout
+            android:layout_below="@+id/app_bar"
+            android:layout_margin="48dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:text="@string/btn_continue"
+            android:textColor="@color/colorHighlight"
+            android:textSize="@dimen/size_text_primary" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:text="@string/btn_play"
+            android:textColor="@color/colorHighlight"
+            android:textSize="@dimen/size_text_primary" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:text="@string/btn_exit"
+            android:textColor="@color/colorHighlight"
+            android:textSize="@dimen/size_text_primary" />
+        </LinearLayout>
+  </LinearLayout>
+

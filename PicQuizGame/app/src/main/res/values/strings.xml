@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NIHON POP QUIZ</string>
+    <string name="title_activity_display_message">NIHON POP QUIZ</string>
+    <string name="action_settings">SETTING</string>
+
+    <string name="btn_continue">Continue</string>
+    <string name="btn_play">PLAY</string>
+    <string name="btn_exit">BACK TO MENU</string>
+    <string name="btn_back_main">BACK TO MENU</string>
+
+    <string name="guess_text">GAME: 1/50</string>
+    <string name="btn_skip">SKIP</string>
+    <string name="logo_text">HOW MANY LOGOS CAN YOU GUESS</string>
+    <string name="gameover_text">CONGRATULATIONS ON THE SUCCESS!</string>
+    <string name="title_activity_index">NIHON POP QUIZ</string>
+
+    <string name="Vocabulary">LEARN JAPANESE</string>
+    <string name="Game">QUIZ GAME</string>
+    <string name="title_activity_page1">Page1</string>
+    <string name="title_activity_view_paper">LEARN JAPANESE</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_page2">Page2</string>
+    <string name="title_activity_page3">Page3</string>
+
+    //employees
+    <array name="employeesimgs">
+        <item>@drawable/chourishi</item>
+        <item>@drawable/enjinia</item>
+        <item>@drawable/gaka</item>
+        <item>@drawable/ginkouin</item>
+        <item>@drawable/isha</item>
+        <item>@drawable/kaishain</item>
+        <item>@drawable/kangofu</item>
+        <item>@drawable/kashu</item>
+        <item>@drawable/keisatsukan</item>
+        <item>@drawable/koukanshu</item>
+        <item>@drawable/kyoushi</item>
+        <item>@drawable/shouhei</item>
+        <item>@drawable/shufu</item>
+    </array>
+    <string-array name="employees">
+        <item>かいしゃいん</item>
+        <item>エンジニア</item>
+        <item>がか</item>
+        <item>ぎんこういん</item>
+        <item>いしゃ</item>
+        <item>かいしゃいん</item>
+        <item>かんごふ</item>
+        <item>かしゅ</item>
+        <item>けいさつ</item>
+        <item>こうかんしゅ</item>
+        <item>きょうし</item>
+        <item>しょうへい</item>
+        <item>しゅふ</item>
+    </string-array>
+    <string-array name="employeesimgsdescrition">
+        <item>chourishi</item>
+        <item>enjinia</item>
+        <item>gaka</item>
+        <item>ginkouin</item>
+        <item>isha</item>
+        <item>kaishain</item>
+        <item>kangofu</item>
+        <item>kashu</item>
+        <item>keisatsukan</item>
+        <item>koukanshu</item>
+        <item>kyoushi</item>
+        <item>shouhei</item>
+        <item>shufu</item>
+    </string-array>
+    <string-array name="employeesimgsdescrition2">
+        <item>chef</item>
+        <item>engineer</item>
+        <item>painter</item>
+        <item>bank employees</item>
+        <item>doctor</item>
+        <item>employees</item>
+        <item>nurse</item>
+        <item>singer</item>
+        <item>police</item>
+        <item>operator</item>
+        <item>professor</item>
+        <item>soldier</item>
+        <item>maid</item>
+    </string-array>
+
+    //tabemono
+    <array name="tabemonoimgs">
+        <item>@drawable/banana</item>
+        <item>@drawable/budou</item>
+        <item>@drawable/ebi</item>
+        <item>@drawable/hamu</item>
+        <item>@drawable/hanbaga</item>
+        <item>@drawable/hanbagu</item>
+        <item>@drawable/ichigo</item>
+        <item>@drawable/jusu</item>
+        <item>@drawable/kani</item>
+        <item>@drawable/kechappu</item>
+        <item>@drawable/kohii</item>
+        <item>@drawable/kokoa</item>
+        <item>@drawable/kome</item>
+        <item>@drawable/kora</item>
+        <item>@drawable/mikan</item>
+        <item>@drawable/nashi</item>
+        <item>@drawable/ninjin</item>
+        <item>@drawable/piza</item>
+        <item>@drawable/ramen</item>
+        <item>@drawable/ringo</item>
+        <item>@drawable/sakana</item>
+        <item>@drawable/sandoitchi</item>
+        <item>@drawable/shouyu</item>
+        <item>@drawable/suika</item>
+        <item>@drawable/sushi</item>
+        <item>@drawable/tamago</item>
+        <item>@drawable/toriniku</item>
+        <item>@drawable/tosuto</item>
+    </array>
+    <string-array name="tabemono">
+        <item>バナナ</item>
+        <item>ぶどう</item>
+        <item>えび</item>
+        <item>ハム</item>
+        <item>ハンバーガー</item>
+        <item>ハンバー</item>
+        <item>いちご</item>
+        <item>ジュース</item>
+        <item>カニ</item>
+        <item>ケチャップ</item>
+        <item>コーヒー</item>
+        <item>ココア</item>
+        <item>コメ</item>
+        <item>コーラ</item>
+        <item>オレンジ</item>
+        <item>なし</item>
+        <item>にんじん</item>
+        <item>ピザ</item>
+        <item>ラーメン</item>
+        <item>りんご</item>
+        <item>さかな</item>
+        <item>サンドイッチ</item>
+        <item>そうゆ</item>
+        <item>スイカ</item>
+        <item>すし</item>
+        <item>たまご</item>
+        <item>とりにく</item>
+        <item>トースト</item>
+    </string-array>
+    <string-array name="tabemonodescrition">
+        <item>banana</item>
+        <item>budou</item>
+        <item>ebi</item>
+        <item>hamu</item>
+        <item>hanba-ga-</item>
+        <item>hanba-gu</item>
+        <item>ichigo</item>
+        <item>jusu</item>
+        <item>kani</item>
+        <item>kechappu</item>
+        <item>kohii</item>
+        <item>kokoa</item>
+        <item>kome</item>
+        <item>ko-ra</item>
+        <item>mikan</item>
+        <item>nashi</item>
+        <item>ninjin</item>
+        <item>piza</item>
+        <item>ra-men</item>
+        <item>ringo</item>
+        <item>sakana</item>
+        <item>sandoitchi</item>
+        <item>shouyu</item>
+        <item>suika</item>
+        <item>sushi</item>
+        <item>tamago</item>
+        <item>tori-niku</item>
+        <item>to-suto</item>
+    </string-array>
+    <string-array name="tabemonodescrition2">
+        <item>banana</item>
+        <item>grapes</item>
+        <item>shrimp</item>
+        <item>Ham</item>
+        <item>hamburger</item>
+        <item>hamburger</item>
+        <item>strawberry</item>
+        <item>juice</item>
+        <item>crab</item>
+        <item>ketchup</item>
+        <item>coffee</item>
+        <item>cocoa</item>
+        <item>rice</item>
+        <item>cola</item>
+        <item>orange</item>
+        <item>pear</item>
+        <item>carrots</item>
+        <item>pizaz</item>
+        <item>noodle</item>
+        <item>aplle</item>
+        <item>fish</item>
+        <item>sandwich</item>
+        <item>soy sauce</item>
+        <item>watermelon</item>
+        <item>sushi</item>
+        <item>egg</item>
+        <item>chicken</item>
+        <item>toast</item>
+    </string-array>
+
+    //gatsu
+    <array name="gatsuimgs">
+        <item>@drawable/ichi_gatsu</item>
+        <item>@drawable/ni_gatsu</item>
+        <item>@drawable/san_gatsu</item>
+        <item>@drawable/shi_gatsu</item>
+        <item>@drawable/go_gatsu</item>
+        <item>@drawable/roku_gatsu</item>
+        <item>@drawable/shichi_gatsu</item>
+        <item>@drawable/hachi_gatsu</item>
+        <item>@drawable/ku_gatsu</item>
+        <item>@drawable/juu_gatsu</item>
+        <item>@drawable/juu_ichi_gatsu</item>
+        <item>@drawable/juu_ni_gatsu</item>
+        <item>@drawable/nan_gatsu</item>
+    </array>
+    <string-array name="gatsu">
+        <item>いちがつ</item>
+        <item>にがつ</item>
+        <item>さんがつ</item>
+        <item>しがつ</item>
+        <item>ごがつ</item>
+        <item>ろくがつ</item>
+        <item>しちがつ</item>
+        <item>はちがつ</item>
+        <item>くがつ</item>
+        <item>じゅうがつ</item>
+        <item>じゅういちがつ</item>
+        <item>じゅうにがつ</item>
+        <item>なんがつ</item>
+    </string-array>
+    <string-array name="gatsudescrition">
+        <item>ichi gatsu</item>
+        <item>ni gatsu</item>
+        <item>san gatsu</item>
+        <item>shi gatsu</item>
+        <item>go gatsu</item>
+        <item>roku gatsu</item>
+        <item>shichi gatsu</item>
+        <item>hachi gatsu</item>
+        <item>ku gatsu</item>
+        <item>juu gatsu</item>
+        <item>juu ichi gatsu</item>
+        <item>juu ni gatsu</item>
+        <item>nan gatsu</item>
+    </string-array>
+    <string-array name="gatsudescrition2">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+        <item>What month</item>
+    </string-array>
+
+    //tenkiyoho
+    <array name="tengiyohoimgs">
+        <item>@drawable/ame</item>
+        <item>@drawable/hare</item>
+        <item>@drawable/kaminari</item>
+        <item>@drawable/kumori</item>
+        <item>@drawable/taifuu</item>
+    </array>
+    <string-array name="tengiyoho">
+        <item>雨</item>
+        <item>晴れ</item>
+        <item>雷</item>
+        <item>曇り</item>
+        <item>台風</item>
+    </string-array>
+    <string-array name="tengiyohodescrition">
+        <item>ame</item>
+        <item>hare</item>
+        <item>kaminari</item>
+        <item>kumori</item>
+        <item>taifuu</item>
+    </string-array>
+    <string-array name="tengiyohodescrition2">
+        <item>rain</item>
+        <item>mostly sunny</item>
+        <item>thunder</item>
+        <item>cloudiness</item>
+        <item>typhoon</item>
+    </string-array>
+
+    //yobi
+    <array name="yobiimgs">
+        <item>@drawable/nichi_youbi</item>
+        <item>@drawable/getsu_youbi</item>
+        <item>@drawable/ka_youbi</item>
+        <item>@drawable/sui_youbi</item>
+        <item>@drawable/moku_youbi</item>
+        <item>@drawable/kin_youbi</item>
+        <item>@drawable/do_youbi</item>
+        <item>@drawable/nan_gatsu</item>
+    </array>
+    <string-array name="yobi">
+        <item>げつようび</item>
+        <item>かようび</item>
+        <item>すいようび</item>
+        <item>もくようび </item>
+        <item>きんようび  </item>
+        <item>どようび  </item>
+        <item>にちようび</item>
+        <item>なんようび</item>
+    </string-array>
+    <string-array name="yobidescrition">
+        <item>nichi youbi</item>
+        <item>getsu youbi</item>
+        <item>ka youbi</item>
+        <item>sui youbi</item>
+        <item>moku youbi</item>
+        <item>kin youbi</item>
+        <item>do youbi</item>
+        <item>nan gatsu</item>
+    </string-array>
+    <string-array name="yobidescrition2">
+        <item>monday</item>
+        <item>tuesday</item>
+        <item>wednesday</item>
+        <item>thursday </item>
+        <item>friday  </item>
+        <item>saturday  </item>
+        <item>sunday</item>
+        <item>what day is today ?</item>
+    </string-array>
+
+    //number
+    <array name="numberimgs">
+        <item>@drawable/ichi</item>
+        <item>@drawable/ni</item>
+        <item>@drawable/san</item>
+        <item>@drawable/yon</item>
+        <item>@drawable/go</item>
+        <item>@drawable/roku</item>
+        <item>@drawable/nana</item>
+        <item>@drawable/hachi</item>
+        <item>@drawable/kyuu</item>
+        <item>@drawable/juu</item>
+        <item>@drawable/juu_ichi</item>
+        <item>@drawable/juu_ni</item>
+        <item>@drawable/juu_san</item>
+        <item>@drawable/juu_yon</item>
+        <item>@drawable/juu_go</item>
+        <item>@drawable/juu_roku</item>
+        <item>@drawable/juu_nana</item>
+        <item>@drawable/juu_hachi</item>
+        <item>@drawable/juu_kyuu</item>
+        <item>@drawable/ni_juu</item>
+        <item>@drawable/san_juu</item>
+        <item>@drawable/yon_juu</item>
+        <item>@drawable/go_juu</item>
+        <item>@drawable/roku_juu</item>
+        <item>@drawable/nana_juu</item>
+        <item>@drawable/hachi_juu</item>
+        <item>@drawable/kyuu_juu</item>
+        <item>@drawable/hyaku</item>
+        <item>@drawable/ni_hyaku</item>
+        <item>@drawable/san_hyaku</item>
+        <item>@drawable/yon_hyaku</item>
+        <item>@drawable/go_hyaku</item>
+        <item>@drawable/rop_pyaku</item>
+        <item>@drawable/nana_hyaku</item>
+        <item>@drawable/hap_pyaku</item>
+        <item>@drawable/kyuu_hyaku</item>
+        <item>@drawable/sen</item>
+        <item>@drawable/ni_sen</item>
+        <item>@drawable/san_sen</item>
+        <item>@drawable/yon_sen</item>
+        <item>@drawable/go_sen</item>
+        <item>@drawable/roku_sen</item>
+        <item>@drawable/nana_sen</item>
+        <item>@drawable/has_sen</item>
+        <item>@drawable/kyuu_sen</item>
+        <item>@drawable/ichi_man</item>
+        <item>@drawable/juu_man</item>
+        <item>@drawable/hyaku_man</item>
+        <item>@drawable/sen_man</item>
+        <item>@drawable/ichi_oku</item>
+        <item>@drawable/nibun_no_ichi</item>
+    </array>
+    <string-array name="number">
+        <item>いち</item>
+        <item>に</item>
+        <item>さん </item>
+        <item>よん</item>
+        <item>ご </item>
+        <item>ろく</item>
+        <item>なな</item>
+        <item>はち</item>
+        <item>きゅう</item>
+        <item>ゅういち</item>
+        <item>ゅうに</item>
+        <item>ゅうさん</item>
+        <item>ゅうよん</item>
+        <item>ゅうご</item>
+        <item>ゅうろく</item>
+        <item>ゅうなな</item>
+        <item>ゅうはち</item>
+        <item>ゅうきゅう</item>
+        <item>じゅうきゅう</item>
+        <item>にじゅう</item>
+        <item>さんじゅう</item>
+        <item>よんじゅう</item>
+        <item>ごじゅう</item>
+        <item>ろくじゅう</item>
+        <item>ななじゅう</item>
+        <item>はちじゅう</item>
+        <item>きゅうじゅう</item>
+        <item>ひゃく</item>
+        <item>にひゃく</item>
+        <item>さんびゃく</item>
+        <item>よんひゃく</item>
+        <item>ごひゃく</item>
+        <item>ろっぴゃく</item>
+        <item>ななぴゃく</item>
+        <item>はっぴゃく</item>
+        <item>きゅうひゃく</item>
+        <item>せん </item>
+        <item>にさん</item>
+        <item>さんぜん</item>
+        <item>よんせん</item>
+        <item>ごせん</item>
+        <item>ろくせん</item>
+        <item>ななせん</item>
+        <item>はっせん</item>
+        <item>きゅうせん</item>
+        <item> いちまん</item>
+        <item>じゅうまん</item>
+        <item>ひゃくまん</item>
+        <item>せんまん</item>
+        <item>いちおく</item>
+        <item>に分のいち</item>
+    </string-array>
+    <string-array name="numberdescrition">
+        <item>ichi</item>
+        <item>ni</item>
+        <item>san</item>
+        <item>yon</item>
+        <item>go</item>
+        <item>roku</item>
+        <item>nana</item>
+        <item>hachi</item>
+        <item>kyuu</item>
+        <item>juu</item>
+        <item>juuichi</item>
+        <item>juuni</item>
+        <item>juusan</item>
+        <item>juuyon</item>
+        <item>juugo</item>
+        <item>juuroku</item>
+        <item>juunana</item>
+        <item>juuhachi</item>
+        <item>juukyuu</item>
+        <item>nijuu</item>
+        <item>sanjuu</item>
+        <item>yonjuu</item>
+        <item>gojuu</item>
+        <item>rokujuu</item>
+        <item>nanajuu</item>
+        <item>hachijuu</item>
+        <item>kyuujuu</item>
+        <item>hyaku</item>
+        <item>nihyaku</item>
+        <item>sanhyaku</item>
+        <item>yonhyaku</item>
+        <item>gohyaku</item>
+        <item>roppyaku</item>
+        <item>nanahyaku</item>
+        <item>happyaku  </item>
+        <item>kyuuhyaku</item>
+        <item>sen</item>
+        <item>nisen</item>
+        <item>sansen</item>
+        <item>yonsen</item>
+        <item>gosen</item>
+        <item>rokusen</item>
+        <item>nanasen</item>
+        <item>hassen</item>
+        <item>kyuusen</item>
+        <item>ichiman</item>
+        <item>juuman</item>
+        <item>hyakuman</item>
+        <item>senman</item>
+        <item>ichioku</item>
+        <item>nibunnoichi</item>
+    </string-array>
+    <string-array name="numberdescrition2">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+        <item>four</item>
+        <item>five</item>
+        <item>six</item>
+        <item>seven</item>
+        <item>eight</item>
+        <item>nine</item>
+        <item>ten</item>
+        <item>eleven</item>
+        <item>twelve</item>
+        <item>thirteen</item>
+        <item>fourteen</item>
+        <item>fifteen</item>
+        <item>sixteen</item>
+        <item>seventeen</item>
+        <item>eighteen</item>
+        <item>nineteen</item>
+        <item>twenty</item>
+        <item>twenty-three</item>
+        <item>twenty-four</item>
+        <item>twenty-five</item>
+        <item>twenty-six</item>
+        <item>twenty-seven</item>
+        <item>twenty-eight</item>
+        <item>twenty-nine</item>
+        <item>one hundred</item>
+        <item>two hundred</item>
+        <item>three hundred</item>
+        <item>four hundred</item>
+        <item>five hundred</item>
+        <item>six hundred</item>
+        <item>seven hundred</item>
+        <item>eight hundred</item>
+        <item>nine hundred</item>
+        <item>one thousand</item>
+        <item>two thousand</item>
+        <item>three thousand</item>
+        <item>four thousand</item>
+        <item>five thousand</item>
+        <item>six thousand</item>
+        <item>seven thousand</item>
+        <item>eight thousand</item>
+        <item>nine thousand</item>
+        <item>ten thousand</item>
+        <item>one hundred thousand</item>
+        <item>one million</item>
+        <item>ten million</item>
+        <item>one handred million</item>
+        <item>one half</item>
+    </string-array>
+
+    //Norimono
+    <array name="norimonoimgs">
+        <item>@drawable/basu</item>
+        <item>@drawable/densha</item>
+        <item>@drawable/hikouki</item>
+        <item>@drawable/jidousha</item>
+        <item>@drawable/jitensha</item>
+        <item>@drawable/shinkansen</item>
+        <item>@drawable/takushii</item>
+    </array>
+    <string-array name="norimono">
+        <item>バス</item>
+        <item>でんしゃ</item>
+        <item>ひこうき</item>
+        <item>じどうしゃ</item>
+        <item>じてんしゃ</item>
+        <item>しんかんせん</item>
+        <item>タクシー</item>
+    </string-array>
+    <string-array name="norimonodescrition">
+        <item>basu</item>
+        <item>densha</item>
+        <item>hikouki</item>
+        <item>jidousha</item>
+        <item>jitensha</item>
+        <item>shinkansen</item>
+        <item>takushii</item>
+    </string-array>
+    <string-array name="norimonodescrition2">
+        <item>bus</item>
+        <item>sky train</item>
+        <item>airplane</item>
+        <item>can</item>
+        <item>bicycle</item>
+        <item>bullet train</item>
+        <item>taxi</item>
+    </string-array>
+
+    //location
+    <array name="locationimgs">
+        <item>@drawable/depaato</item>
+        <item>@drawable/eki</item>
+        <item>@drawable/ginkou</item>
+        <item>@drawable/posuto</item>
+        <item>@drawable/resutoran</item>
+        <item>@drawable/suupa</item>
+        <item>@drawable/toire</item>
+        <item>@drawable/yuubinkyoku</item>
+    </array>
+    <string-array name="location">
+        <item>デパ-と</item>
+        <item>えき</item>
+        <item> バンク</item>
+        <item>ポスト</item>
+        <item>レストラン</item>
+        <item>スーパ</item>
+        <item>トイレ</item>
+        <item>ゆうびんきょく</item>
+    </string-array>
+    <string-array name="locationdescrition">
+        <item>depa-to</item>
+        <item>eki</item>
+        <item>ginkou</item>
+        <item>posuto</item>
+        <item>resutoran</item>
+        <item>su-pa</item>
+        <item>toire</item>
+        <item>yuubinkyoku</item>
+    </string-array>
+    <string-array name="locationdescrition2">
+        <item>department store</item>
+        <item>station</item>
+        <item>bank</item>
+        <item>post</item>
+        <item>restaurant</item>
+        <item>suermarket</item>
+        <item>toilet</item>
+        <item>post office</item>
+    </string-array>
+
+</resources>

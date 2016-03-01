@@ -1,0 +1,31 @@
+<resources>
+<!-- Default screen margins, per the Android Design guidelines. -->
+<dimen name="activity_horizontal_margin">16dp</dimen>
+<dimen name="activity_vertical_margin">36dp</dimen>
+    <dimen name="btn_menu">16sp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_letter_line">4sp</dimen>
+    <dimen name="text_answer_line">3sp</dimen>
+    <dimen name="btn_size_height">35dp</dimen>
+    <dimen name="btn_size_width">35dp</dimen>
+
+    <dimen name="margin_logo">100dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_normal">10dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="font_normal">12sp</dimen>
+    <dimen name="font_large">16sp</dimen>
+    <dimen name="font_xlarge">28sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_drawer_width">280dp</dimen>
+    <dimen name="app_bar_top_padding">0dp</dimen>
+    <dimen name="drawer_margin_top">24dp</dimen>
+    <dimen name="size_word">16dp</dimen>
+    <dimen name="size_text_primary">16sp</dimen>
+    <dimen name="size_text_secondary">14sp</dimen>
+    <dimen name="size_half_byte">4dp</dimen>
+    <dimen name="size_byte">8dp</dimen>
+    <dimen name="movie_thumbnail_width">54dp</dimen>
+    <dimen name="movie_thumbnail_height">80dp</dimen>
+</resources>

@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.example.myapp.myapplication.Index">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar">
+    </include>
+
+    <ImageView
+        android:layout_below="@+id/app_bar"
+        android:layout_marginTop="@dimen/app_bar_top_padding"
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pic"/>
+
+
+<RelativeLayout
+    android:id="@+id/vocabulary_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/logo">
+
+    <TextView
+        android:layout_marginTop="@dimen/drawer_margin_top"
+        android:id="@+id/vocabulary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Vocabulary"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/size_text_primary"
+        android:textColor="@color/colorPrimaryText"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/firstline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn Japan or Romanian language "
+        android:layout_below="@+id/vocabulary"
+        android:textSize="@dimen/size_text_secondary"
+        android:textColor="@color/colorSecondaryText"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You may improve your scores of JLPT."
+        android:layout_below="@+id/firstline"
+        android:textSize="@dimen/size_text_secondary"
+        android:textColor="@color/colorSecondaryText"
+        />
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/game_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/vocabulary_parent">
+
+    <TextView
+        android:layout_marginTop="@dimen/drawer_margin_top"
+        android:id="@+id/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Game"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/size_text_primary"
+        android:textColor="@color/colorPrimaryText"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/firstline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Can you guess all the icons?"
+        android:layout_below="@+id/game"
+        android:textSize="@dimen/size_text_secondary"
+        android:textColor="@color/colorSecondaryText"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this cool and addictive quiz game."
+        android:layout_below="@+id/firstline2"
+        android:textSize="@dimen/size_text_secondary"
+        android:textColor="@color/colorSecondaryText"
+        />
+</RelativeLayout>
+
+</RelativeLayout>
